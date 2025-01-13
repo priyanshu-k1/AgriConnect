@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="styles/main_screen.css" />
     <link rel="stylesheet" href="styles/about.css" />
     <link rel="shortcut icon" href="Resources/icon.ico" type="image/x-icon" />
+    <script src="Scripts/language.js"></script>
     <title>AgriConnect</title>
     <link
       rel="stylesheet"
@@ -84,7 +85,6 @@
                 <li>
                   <a
                     class="dropdown-item"
-                    href="#"
                     onclick="selectLanguage('English')"
                     >English</a
                   >
@@ -92,7 +92,6 @@
                 <li>
                   <a
                     class="dropdown-item"
-                    href="#"
                     onclick="selectLanguage('hindi')"
                     >Hindi</a
                   >
@@ -100,7 +99,6 @@
                 <li>
                   <a
                     class="dropdown-item"
-                    href="#"
                     onclick="selectLanguage('Telugu')"
                     >Telugu</a
                   >
@@ -187,6 +185,8 @@
         </div>
       </div>
     </div>
+
+  
     
 
     <script
@@ -208,9 +208,7 @@
         loop: true,
       });
 
-      function selectLanguage(lang) {
-        alert(`Language changed to: ${lang.toUpperCase()}`);
-      }
+
     </script>
   </body>
 </html>
