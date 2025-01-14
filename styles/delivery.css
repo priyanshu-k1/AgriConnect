@@ -61,8 +61,7 @@ input{
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* visibility: hidden; */
-    background-color: white;
+    visibility: hidden;
     width:50%;
     height: 60%;
 }
@@ -71,5 +70,26 @@ input{
     height:100%;
 }
 
+@media screen and (max-width: 844px) {
+    .parent{
+        margin-top: 3opx;
+    }
+    .formSection{
+        width:100%;
+        height:90%;
+    }
+    .child{
+        height:100%;
+        overflow: scroll;
+        flex-direction: column;
+    }
+    .outPutsection{
+        width:100%;
+    }
+    .qrImg{
+        width:100;
+    }
+    
+}
 
 

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/placed.css">
+    <link rel="shortcut icon" href="Resources/icon.ico" type="image/x-icon" />
+    <title>AgriConnect</title>
+</head>
+<body >
+    <div class="main" style="background-image: url(Resources/happy.jpg);background-size: cover;">
+        <div class="child">
+            <h2 class="intro" id="intro">Your order has been placed.</h2>
+            <div class="imgWrapper">
+                <img src="Resources/done.png" alt="">
+            </div>
+            <h4>Thank You</h4>
+        </div>
+
+
+    </div>
+<script>
+    function loadData(){
+        name=localStorage.getItem("name");
+        product=localStorage.getItem("product");
+        const item=document.getElementById("intro");
+        item.textContent=name.charAt(0).toUpperCase() + name.slice(1).toLowerCase()+" your "+product+" has been placed." 
+    }
+    window.onload=function(){
+        loadData();
+    }
+
+</script>
+</body>
+</html>

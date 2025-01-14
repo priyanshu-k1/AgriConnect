@@ -1,9 +1,9 @@
 
-var productname;
-
+var productname="";
+var nameuser=""
 function onPressedBuyNow(name){
- productname=name;
- window.location.href = "delivery .html"
+ localStorage.setItem("product",name);
+ window.location.href = "delivery.html";
 }
 function payment(){
     const nameField = document.querySelector('input[placeholder="Enter your name."]');
@@ -26,6 +26,6 @@ function payment(){
 }
 
 function redirectT(){
-    window.location.href = "thank_you.html";
-
+    localStorage.setItem("name",document.querySelector('input[placeholder="Enter your name."]').value)
+    window.location.href = "order_placed.html";
 }
