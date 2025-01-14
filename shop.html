@@ -39,9 +39,7 @@
           style="min-width: 100px"
         >
           <div class="rounded-circle">
-            <h3 id="navH3" class="rounded-circle">
-              AC
-            </h3>
+            <h3 id="navH3" class="rounded-circle">AC</h3>
           </div>
         </a>
         <button
@@ -58,23 +56,25 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="main.html">Home</a>
+              <a data-lang="nav1" class="nav-link" href="main.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="teaching.html">Teaching</a>
+              <a data-lang="nav2" class="nav-link" href="teaching.html"
+                >Teaching</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="shop.html">Shop</a>
+              <a data-lang="nav3" class="nav-link" href="shop.html">Shop</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">about</a>
+              <a data-lang="nav4" class="nav-link" href="about.html">about</a>
             </li>
           </ul>
           <ul class="navbar-nav ms-auto">
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href="#"
+                data-lang="nav5"
                 id="languageDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -87,28 +87,19 @@
                 aria-labelledby="languageDropdown"
               >
                 <li>
-                  <a
-                    class="dropdown-item"
-                    href="#"
-                    onclick="selectLanguage('English')"
-                    >English</a
-                  >
+                  <button class="dropdown-item" onclick="selectLanguage('en')">
+                    English
+                  </button>
                 </li>
                 <li>
-                  <a
-                    class="dropdown-item"
-                    href="#"
-                    onclick="selectLanguage('hindi')"
-                    >Hindi</a
-                  >
+                  <button class="dropdown-item" onclick="selectLanguage('hi')">
+                    Hindi
+                  </button>
                 </li>
                 <li>
-                  <a
-                    class="dropdown-item"
-                    href="#"
-                    onclick="selectLanguage('Telugu')"
-                    >Telugu</a
-                  >
+                  <button class="dropdown-item" onclick="selectLanguage('te')">
+                    Telugu
+                  </button>
                 </li>
               </ul>
             </li>
@@ -130,8 +121,8 @@
           <div class="card-body">
             <h4 class="card-title">ATRAZINE WP</h4>
             <p class="card-text">Atrazine WP is a selective herbicide used to control a wide range of weeds.</p>
-            <p>Best for: corn, sorghum, sugarcane.</p>
-            <button class="btn btn-primary" onclick=" onPressedBuyNow('ATRAZINE WP')">Buy Now</button>
+            <p data-lang="crop1" >Best for: corn, sorghum, sugarcane.</p>
+            <button class="btn btn-primary" data-lang="buyb" data-lang="buyb" onclick=" onPressedBuyNow('ATRAZINE WP')">Buy Now</button>
 
           </div>
         </div>
@@ -142,8 +133,8 @@
           <div class="card-body">
             <h4 class="card-title">Clorex Gold</h4>
             <p class="card-text">an insecticide containing Chlorpyrifos, an organophosphate insecticide.</p>
-            <p>Best for: Cotton, potatoes</p>
-            <button class="btn btn-primary" onclick=" onPressedBuyNow('Clorex Gold')">Buy Now</button>
+            <p data-lang="crop2" >Best for: Cotton, potatoes</p>
+            <button class="btn btn-primary" data-lang="buyb" onclick=" onPressedBuyNow('Clorex Gold')">Buy Now</button>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
@@ -153,8 +144,8 @@
           <div class="card-body">
             <h4 class="card-title">Basagran</h4>
             <p class="card-text"> is a selective herbicide used to control a wide range of weeds, primarily broadleaf weeds</p>
-            <p>Best for: Rice, Soybeans</p>
-            <button class="btn btn-primary" onclick=" onPressedBuyNow('Basagran')">Buy Now</button>
+            <p data-lang="crop3" >Best for: Rice, Soybeans</p>
+            <button class="btn btn-primary" data-lang="buyb" onclick=" onPressedBuyNow('Basagran')">Buy Now</button>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
@@ -164,8 +155,8 @@
           <div class="card-body">
             <h4 class="card-title">Proflex Super</h4>
             <p class="card-text">Super is an insecticide used to control a wide range of insect pests in various crops.</p>
-            <p>Best for: Cotton, Vegetables</p>
-            <button class="btn btn-primary" onclick=" onPressedBuyNow('Proflex Super')">Buy Now</button>
+            <p data-lang="crop4" >Best for: Cotton, Vegetables</p>
+            <button class="btn btn-primary" data-lang="buyb" onclick=" onPressedBuyNow('Proflex Super')">Buy Now</button>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
@@ -175,8 +166,8 @@
           <div class="card-body">
             <h4 class="card-title">Panah Plus</h4>
             <p class="card-text">an insecticide used to control a wide range of insect pests in various crops.</p>
-            <p>Best for: Cotton, Brinjal </p>
-            <button class="btn btn-primary" onclick=" onPressedBuyNow('Panah Plus')">Buy Now</button>
+            <p data-lang="crop5" >Best for: Cotton, Brinjal </p>
+            <button class="btn btn-primary" data-lang="buyb" onclick=" onPressedBuyNow('Panah Plus')">Buy Now</button>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
@@ -186,8 +177,8 @@
           <div class="card-body">
             <h4 class="card-title">NPK 21-0-0</h4>
             <p class="card-text">is a nitrogen-rich fertilizer. T it contains 21% Nitrogen, 0% Phosphorus, and 0% Potassium.</p>
-            <p>Best for: wheat, corn </p>
-            <button class="btn btn-primary" onclick=" onPressedBuyNow('NPK 21-0-0')">Buy Now</button>
+            <p data-lang="crop6" >Best for: wheat, corn </p>
+            <button class="btn btn-primary" data-lang="buyb" onclick=" onPressedBuyNow('NPK 21-0-0')">Buy Now</button>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
@@ -197,8 +188,8 @@
           <div class="card-body">
             <h4 class="card-title">Rogor</h4>
             <p class="card-text">An organophosphate insecticide .It is containing the active ingredient Dimethoate.</p>
-            <p>Best for: cotton, corn </p>
-            <button class="btn btn-primary" onclick=" onPressedBuyNow('Rogor')">Buy Now</button>
+            <p data-lang="crop7" >Best for: cotton, corn </p>
+            <button class="btn btn-primary" data-lang="buyb" onclick=" onPressedBuyNow('Rogor')">Buy Now</button>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
@@ -208,8 +199,8 @@
           <div class="card-body">
             <h4 class="card-title">NPK</h4>
             <p class="card-text">Nitrogen,Phosphorus and Potassium.Three primary macronutrients good for plant.</p>
-            <p>Best for: Tomatoes, berries </p>
-            <button class="btn btn-primary" onclick=" onPressedBuyNow('NPK')">Buy Now</button>
+            <p data-lang="crop8" >Best for: Tomatoes, berries </p>
+            <button class="btn btn-primary" data-lang="buyb" onclick=" onPressedBuyNow('NPK')">Buy Now</button>
           </div>
         </div>
 
@@ -222,8 +213,8 @@
           <div class="card-body">
             <h4 class="card-title">HUMIROOT</h4>
             <p class="card-text">Humiroot is a product containing Humic Acid derived from the decomposition of organic matter.</p>
-            <p>Best for: wheat, corn </p>
-            <button class="btn btn-primary" onclick=" onPressedBuyNow('HUMIROOT')">Buy Now</button>
+            <p data-lang="crop9" >Best for: wheat, corn </p>
+            <button class="btn btn-primary" data-lang="buyb" onclick=" onPressedBuyNow('HUMIROOT')">Buy Now</button>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
@@ -233,8 +224,8 @@
           <div class="card-body">
             <h4 class="card-title">2,4-D MAIN</h4>
             <p class="card-text">2,4-D is a selective herbicide primarily used to control broadleaf weeds in lawns and turf areas.</p>
-            <p>Best for: Soybeans, Pastures </p>
-            <button class="btn btn-primary" onclick=" onPressedBuyNow('2,4-D MAIN')">Buy Now</button>
+            <p data-lang="crop10" >Best for: Soybeans, Pastures </p>
+            <button class="btn btn-primary" data-lang="buyb" onclick=" onPressedBuyNow('2,4-D MAIN')">Buy Now</button>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
@@ -244,8 +235,8 @@
           <div class="card-body">
             <h4 class="card-title">SUPER PHOSPHATE</h4>
             <p class="card-text"> Essential for root development, flower and fruit production, and overall plant health.</p>
-            <p>Best for: Apples, corn </p>
-            <button class="btn btn-primary" onclick=" onPressedBuyNow('SUPER PHOSPHATE')">Buy Now</button>
+            <p data-lang="crop11" >Best for: Apples, corn </p>
+            <button class="btn btn-primary" data-lang="buyb" onclick=" onPressedBuyNow('SUPER PHOSPHATE')">Buy Now</button>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
@@ -255,8 +246,8 @@
           <div class="card-body">
             <h4 class="card-title">BIO POTASH</h4>
             <p class="card-text">Potassium fertilizer derived from natural sources like seaweed, rock dust, or plant extracts.</p>
-            <p>Best for: grapes, berries </p>
-            <button class="btn btn-primary" onclick=" onPressedBuyNow('BIO POTASH')">Buy Now</button>
+            <p data-lang="crop12" >Best for: grapes, berries </p>
+            <button class="btn btn-primary" data-lang="buyb" onclick=" onPressedBuyNow('BIO POTASH')">Buy Now</button>
           </div>
         </div>
 
@@ -267,8 +258,8 @@
           <div class="card-body">
             <h4 class="card-title">MAX STRENGTH</h4>
             <p class="card-text">Adequate nitrogen leads to lush green foliage and robust plant development.</p>
-            <p>Best for: barley, rice </p>
-            <button class="btn btn-primary" onclick=" onPressedBuyNow('MAX STRENGTH')">Buy Now</button>
+            <p data-lang="crop13" >Best for: barley, rice </p>
+            <button class="btn btn-primary" data-lang="buyb" onclick=" onPressedBuyNow('MAX STRENGTH')">Buy Now</button>
           </div>
         </div>
 
@@ -279,8 +270,8 @@
           <div class="card-body">
             <h4 class="card-title">ParaGold</h4>
             <p class="card-text">Kills weed by contact, meaning it must directly touch the weed's foliage to be effective.</p>
-            <p>Best for: potatoes, soybeans </p>
-            <button class="btn btn-primary" onclick=" onPressedBuyNow('ParaGold')">Buy Now</button>
+            <p data-lang="crop14" >Best for: potatoes, soybeans </p>
+            <button class="btn btn-primary" data-lang="buyb" onclick=" onPressedBuyNow('ParaGold')">Buy Now</button>
           </div>
         </div>
 
@@ -291,8 +282,8 @@
           <div class="card-body">
             <h4 class="card-title">Imida</h4>
             <p class="card-text">Imidacloprid is absorbed by the plant and translocated throughout its tissues.Effective against sucking.</p>
-            <p>Best for: Cotton, corn </p>
-            <button class="btn btn-primary" onclick=" onPressedBuyNow('Imida')">Buy Now</button>
+            <p data-lang="crop15" >Best for: Cotton, corn </p>
+            <button class="btn btn-primary" data-lang="buyb" onclick=" onPressedBuyNow('Imida')">Buy Now</button>
           </div>
         </div>
 
@@ -303,8 +294,8 @@
           <div class="card-body">
             <h4 class="card-title">MALATHION</h4>
             <p class="card-text">Effective against a wide range of insects, including mosquitoes, flies, aphids, mites, and some caterpillars.</p>
-            <p>Best for: pears, cabbage </p>
-            <button class="btn btn-primary" onclick=" onPressedBuyNow('MALATHION')">Buy Now</button>
+            <p data-lang="crop16" >Best for: pears, cabbage </p>
+            <button class="btn btn-primary" data-lang="buyb" onclick=" onPressedBuyNow('MALATHION')">Buy Now</button>
           </div>
         </div>
         
@@ -315,8 +306,8 @@
           <div class="card-body">
             <h4 class="card-title">N-S-K-E</h4>
             <p class="card-text">t is a natural pesticide extracted from the seeds of the neem tree (Azadirachta indica).</p>
-            <p>Best for: Apples, mangoes </p>
-            <button class="btn btn-primary" onclick=" onPressedBuyNow('N-S-K-E')">Buy Now</button>
+            <p data-lang="crop17" >Best for: Apples, mangoes </p>
+            <button class="btn btn-primary" data-lang="buyb" onclick=" onPressedBuyNow('N-S-K-E')">Buy Now</button>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
@@ -326,8 +317,8 @@
           <div class="card-body">
             <h4 class="card-title">METASYSTOX</h4>
             <p class="card-text">Metasystox is an insecticide containing the active ingredient oxydemeton-methyl.</p>
-            <p>Best for: potatoes, cauliflower </p>
-            <button class="btn btn-primary" onclick=" onPressedBuyNow('METASYSTOX')">Buy Now</button>
+            <p data-lang="crop18" >Best for: potatoes, cauliflower </p>
+            <button class="btn btn-primary" data-lang="buyb" onclick=" onPressedBuyNow('METASYSTOX')">Buy Now</button>
           </div>
         </div>
       </div>
@@ -353,10 +344,6 @@
         backSpeed: 150,
         loop: true,
       });
-
-      function selectLanguage(lang) {
-        alert(`Language changed to: ${lang.toUpperCase()}`);
-      }
     </script>
   </body>
 </html>

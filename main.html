@@ -37,9 +37,7 @@
           style="min-width: 100px"
         >
           <div class="rounded-circle">
-            <h3 id="navH3" class="rounded-circle">
-              AC
-            </h3>
+            <h3 id="navH3" class="rounded-circle">AC</h3>
           </div>
         </a>
         <button
@@ -56,23 +54,25 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="main.html">Home</a>
+              <a data-lang="nav1" class="nav-link" href="main.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="teaching.html">Teaching</a>
+              <a data-lang="nav2" class="nav-link" href="teaching.html"
+                >Teaching</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="shop.html">Shop</a>
+              <a data-lang="nav3" class="nav-link" href="shop.html">Shop</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">about</a>
+              <a data-lang="nav4" class="nav-link" href="about.html">about</a>
             </li>
           </ul>
           <ul class="navbar-nav ms-auto">
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href="#"
+                data-lang="nav5"
                 id="languageDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -85,28 +85,19 @@
                 aria-labelledby="languageDropdown"
               >
                 <li>
-                  <a
-                    class="dropdown-item"
-                    href="#"
-                    onclick="selectLanguage('English')"
-                    >English</a
-                  >
+                  <button class="dropdown-item" onclick="selectLanguage('en')">
+                    English
+                  </button>
                 </li>
                 <li>
-                  <a
-                    class="dropdown-item"
-                    href="#"
-                    onclick="selectLanguage('hindi')"
-                    >Hindi</a
-                  >
+                  <button class="dropdown-item" onclick="selectLanguage('hi')">
+                    Hindi
+                  </button>
                 </li>
                 <li>
-                  <a
-                    class="dropdown-item"
-                    href="#"
-                    onclick="selectLanguage('Telugu')"
-                    >Telugu</a
-                  >
+                  <button class="dropdown-item" onclick="selectLanguage('te')">
+                    Telugu
+                  </button>
                 </li>
               </ul>
             </li>
@@ -146,14 +137,19 @@
       </div>
     </div>
     <div class="testimonial">
-      <h2 align="center" style="background-color: #E8F5E9;color: #115a2e;">Testimonials </h2>
+      <h2 align="center" style="background-color: #e8f5e9; color: #115a2e">
+        Testimonials
+      </h2>
       <div class="outerdiv">
         <div class="innerdiv">
           <!-- div1 -->
           <div class="div1 eachdiv">
             <div class="userdetails">
               <div class="imgbox">
-                <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-daniel.jpg" alt="Person 1 picture">
+                <img
+                  src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-daniel.jpg"
+                  alt="Person 1 picture"
+                />
               </div>
               <div class="detbox">
                 <p class="name">Rajesh Kumar, Farmer, Uttar Pradesh</p>
@@ -161,47 +157,73 @@
               </div>
             </div>
             <div class="review">
-              <h4> AgriConnect has completely transformed my farming practices. Their crop education resources helped me choose the right crops for my soil and climate. Plus, the fertilizers I ordered arrived on time and worked wonders. Highly recommend! </h4>
+              <h4>
+                AgriConnect has completely transformed my farming practices.
+                Their crop education resources helped me choose the right crops
+                for my soil and climate. Plus, the fertilizers I ordered arrived
+                on time and worked wonders. Highly recommend!
+              </h4>
             </div>
           </div>
           <!-- div2 -->
           <div class="div2 eachdiv">
             <div class="userdetails">
               <div class="imgbox">
-                <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-jonathan.jpg" alt="Person 2 picture">
+                <img
+                  src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-jonathan.jpg"
+                  alt="Person 2 picture"
+                />
               </div>
               <div class="detbox">
-                <p class="name"> Amit Sharma, Organic Farmer, Rajasthan</p>
+                <p class="name">Amit Sharma, Organic Farmer, Rajasthan</p>
                 <p class="designation">Verified User</p>
               </div>
             </div>
             <div class="review">
               <h4>The team was very supportive</h4>
-            <p>“"I was skeptical at first, but AgriConnect proved to be a lifesaver. Their sustainable farming tips not only improved my crop yield but also reduced my costs. The quality of their seeds is exceptional!"”</p>
+              <p>
+                “"I was skeptical at first, but AgriConnect proved to be a
+                lifesaver. Their sustainable farming tips not only improved my
+                crop yield but also reduced my costs. The quality of their seeds
+                is exceptional!"”
+              </p>
             </div>
           </div>
           <!-- div3 -->
           <div class="div3 eachdiv">
             <div class="userdetails">
               <div class="imgbox">
-                <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-kira.jpg" alt="">
+                <img
+                  src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-kira.jpg"
+                  alt=""
+                />
               </div>
               <div class="detbox">
-                <p class="name dark">Karthika Naidu, Farmer, Telangana
-                </p>
+                <p class="name dark">Karthika Naidu, Farmer, Telangana</p>
                 <p class="designation dark">Verified User</p>
               </div>
             </div>
             <div class="review dark">
               <h4>Such a life-changing experience. Highly recommended!</h4>
-              <p>“ The best part about AgriConnect is the customer support. They patiently explained everything about seasonal crops in Hindi. It feels like they genuinely care about the farmers' success. Truly a trusted partner!.AgriConnect's home delivery of farming supplies has saved me so much time and effort. The pesticides and fertilizers they deliver are of top-notch quality. I can't thank them enough for their reliable service”</p>
+              <p>
+                “ The best part about AgriConnect is the customer support. They
+                patiently explained everything about seasonal crops in Hindi. It
+                feels like they genuinely care about the farmers' success. Truly
+                a trusted partner!.AgriConnect's home delivery of farming
+                supplies has saved me so much time and effort. The pesticides
+                and fertilizers they deliver are of top-notch quality. I can't
+                thank them enough for their reliable service”
+              </p>
             </div>
           </div>
           <!-- div4 -->
           <div class="div4 eachdiv">
             <div class="userdetails">
               <div class="imgbox">
-                <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-jeanette.jpg" alt="">
+                <img
+                  src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-jeanette.jpg"
+                  alt=""
+                />
               </div>
               <div class="detbox">
                 <p class="name dark">Manoja Yadav, Farmer, Madhya Pradeshn</p>
@@ -210,14 +232,21 @@
             </div>
             <div class="review dark">
               <h4>An overall wonderful and rewarding experience</h4>
-            <p>“ "For years, I struggled with inconsistent yields, but AgriConnect's crop education helped me understand the needs of my crops better. ”</p>
+              <p>
+                “ "For years, I struggled with inconsistent yields, but
+                AgriConnect's crop education helped me understand the needs of
+                my crops better. ”
+              </p>
             </div>
           </div>
           <!-- div5 -->
           <div class="div5 eachdiv">
             <div class="userdetails">
               <div class="imgbox">
-                <img src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-patrick.jpg" alt="">
+                <img
+                  src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-patrick.jpg"
+                  alt=""
+                />
               </div>
               <div class="detbox">
                 <p class="name">Harinder Singh, Farmer, Punjab</p>
@@ -225,8 +254,17 @@
               </div>
             </div>
             <div class="review">
-              <h4>Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and learning from their experiences was easy.</h4>
-            <p>“Being able to access farming knowledge in Hindi made all the difference for me. AgriConnect's user-friendly platform is a game changer for farmers like me who want to stay informed and updated. ”</p>
+              <h4>
+                Awesome teaching support from TAs who did the bootcamp
+                themselves. Getting guidance from them and learning from their
+                experiences was easy.
+              </h4>
+              <p>
+                “Being able to access farming knowledge in Hindi made all the
+                difference for me. AgriConnect's user-friendly platform is a
+                game changer for farmers like me who want to stay informed and
+                updated. ”
+              </p>
             </div>
           </div>
         </div>
@@ -251,10 +289,6 @@
         backSpeed: 150,
         loop: true,
       });
-
-      function selectLanguage(lang) {
-        alert(`Language changed to: ${lang.toUpperCase()}`);
-      }
     </script>
   </body>
 </html>

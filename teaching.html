@@ -39,33 +39,50 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="main.html">Home</a>
+            <a data-lang="nav1" class="nav-link" href="main.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="teaching.html">Teaching</a>
+            <a data-lang="nav2" class="nav-link" href="teaching.html"
+              >Teaching</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="shop.html">Shop</a>
+            <a data-lang="nav3" class="nav-link" href="shop.html">Shop</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">about</a>
+            <a data-lang="nav4" class="nav-link" href="about.html">about</a>
           </li>
         </ul>
         <ul class="navbar-nav ms-auto">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
+            <a
+              class="nav-link dropdown-toggle"
+              data-lang="nav5"
+              id="languageDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
               Language
             </a>
-            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+            <ul
+              class="dropdown-menu dropdown-menu-end"
+              aria-labelledby="languageDropdown"
+            >
               <li>
-                <a class="dropdown-item" href="#" onclick="selectLanguage('English')">English</a>
+                <button class="dropdown-item" onclick="selectLanguage('en')">
+                  English
+                </button>
               </li>
               <li>
-                <a class="dropdown-item" href="#" onclick="selectLanguage('hindi')">Hindi</a>
+                <button class="dropdown-item" onclick="selectLanguage('hi')">
+                  Hindi
+                </button>
               </li>
               <li>
-                <a class="dropdown-item" href="#" onclick="selectLanguage('Telugu')">Telugu</a>
+                <button class="dropdown-item" onclick="selectLanguage('te')">
+                  Telugu
+                </button>
               </li>
             </ul>
           </li>
@@ -83,8 +100,8 @@
       <div class="search-wrapper">
         <div class="search-box">
           <i class="fas fa-search search-icon"></i>
-          <input type="text" class="form-control search-input" placeholder="Search for crops..." id="cropinputbox">
-          <button class="btn btn-primary search-button" onclick="searchCrops()">
+          <input type="text" class="form-control search-input" placeholder="Search for crops..." id="cropinputbox" data-placeholder="TeachingSearchPlaceHolder">
+          <button class="btn btn-primary search-button" onclick="searchCrops()" data-lang="TeachingSearchButton">
             Search
           </button>
         </div>
@@ -99,12 +116,12 @@
             <div class="otherDeatils">
               <div class="outputBox">   
                 <div class="bundle">
-                  <label class="outputElements">Temperature: </label>
+                  <label class="outputElements" data-lang="label1">Temperature: </label>
                   <p class="outputElements" id="Temp">Temp is here</p>
                 </div>
 
                 <div class="bundle">
-                  <label class="outputElements">Season: </label>
+                  <label class="outputElements" data-lang="label2">Season: </label>
                 <p class="outputElements" id="season">season is here</p>
                 </div>
               </div>
@@ -112,34 +129,34 @@
 
             <div class="outputBox">
               <div class="bundle">
-                <label class="outputElements">Duration : </label>
+                <label class="outputElements" data-lang="label3">Duration : </label>
                 <p class="outputElements" id="Duration">Duration is here</p>
               </div>
 
-              <div class="bundle"><label class="outputElements">Soil: </label>
+              <div class="bundle"><label class="outputElements" data-lang="label4">Soil: </label>
                 <p class="outputElements" id="Soil">Soil is here</p>
               </div>
 
             </div>
 
             <div class="outputBox">
-              <div class="bundle"><label class="outputElements">Water : </label>
+              <div class="bundle"><label class="outputElements" data-lang="label5">Water : </label>
                 <p class="outputElements" id="Water">Water is here</p>
               </div>
 
               <div class="bundle">
-                <label class="outputElements">Irrigation : </label>
+                <label class="outputElements" data-lang="label6">Irrigation : </label>
                 <p class="outputElements" id="Irrigation">Irrigation is here</p>
               </div>
 
             </div>
 
             <div class="outputBox">
-              <div class="bundle"><label class="outputElements">Fertilizers : </label>
+              <div class="bundle"><label class="outputElements" data-lang="label7">Fertilizers : </label>
                 <p class="outputElements" id="Fertilizers">Fertilizers is here</p>
               </div>
 
-              <div class="bundle"> <label class="outputElements">Pests: </label>
+              <div class="bundle"> <label class="outputElements" data-lang="label8">Pests: </label>
                 <p class="outputElements" id="Pests">Pests is here</p>
               </div>
 
@@ -176,10 +193,6 @@
       backSpeed: 150,
       loop: true,
     });
-
-    function selectLanguage(lang) {
-      alert(`Language changed to: ${lang.toUpperCase()}`);
-    }
   </script>
 </body>
 

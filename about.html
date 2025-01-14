@@ -54,23 +54,25 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="main.html">Home</a>
+              <a data-lang="nav1" class="nav-link" href="main.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="teaching.html">Teaching</a>
+              <a data-lang="nav2" class="nav-link" href="teaching.html"
+                >Teaching</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="shop.html">Shop</a>
+              <a data-lang="nav3" class="nav-link" href="shop.html">Shop</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a data-lang="nav4" class="nav-link" href="about.html">about</a>
             </li>
           </ul>
           <ul class="navbar-nav ms-auto">
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href="#"
+                data-lang="nav5"
                 id="languageDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -83,25 +85,19 @@
                 aria-labelledby="languageDropdown"
               >
                 <li>
-                  <a
-                    class="dropdown-item"
-                    onclick="selectLanguage('English')"
-                    >English</a
-                  >
+                  <button class="dropdown-item" onclick="selectLanguage('en')">
+                    English
+                  </button>
                 </li>
                 <li>
-                  <a
-                    class="dropdown-item"
-                    onclick="selectLanguage('hindi')"
-                    >Hindi</a
-                  >
+                  <button class="dropdown-item" onclick="selectLanguage('hi')">
+                    Hindi
+                  </button>
                 </li>
                 <li>
-                  <a
-                    class="dropdown-item"
-                    onclick="selectLanguage('Telugu')"
-                    >Telugu</a
-                  >
+                  <button class="dropdown-item" onclick="selectLanguage('te')">
+                    Telugu
+                  </button>
                 </li>
               </ul>
             </li>
@@ -111,19 +107,19 @@
     </nav>
 
     <div class="about-section">
-      <h1>About Us</h1>
-      <p>
+      <h1 data-lang="aboutheading">About Us</h1>
+      <p data-lang="aboutText1">
         Welcome to <b>AgriConnect</b>, your trusted partner in farming and
         agriculture!
       </p>
-      <p>
+      <p data-lang="aboutText2">
         At AgriConnect, we are committed to empowering farmers with knowledge
         and resources to grow a better tomorrow. Our goal is to support you in
         making informed decisions about crops, their requirements, and effective
         agricultural practices—all in the language you are most comfortable
         with: English, Hindi, and Telugu.
       </p>
-      <p>
+      <p data-lang="aboutText3">
         What We Offer Crop Education We provide detailed information about
         various crops, including their water needs, soil type, temperature
         preferences, and more. Learn about pest management, fertilizers, and
@@ -139,7 +135,7 @@
         environment.
       </p>
 
-      <p>
+      <p data-lang="aboutText4">
         Why Choose Us? Farmer-Centric Approach: We prioritize your needs and
         challenges. Accessible Information: Our multilingual platform ensures
         that every farmer can access the guidance they need. Quality Assurance:
@@ -152,21 +148,21 @@
       </p>
     </div>
 
-    <h2 style="text-align: center">Our Team</h2>
+    <h2 style="text-align: center" data-lang="aboutheading2">Our Team</h2>
     <div class="row d-flex flex-wrap flex-md-row flex-column justify-content-center" style="gap: 20px; margin: 20px 0;">
       <!-- Card 1 -->
       <div class="card" style="width: 18rem; border: 1px solid #08A346; border-radius: 10px; overflow: hidden;">
         <img class="card-img-top profilePicture" src="Resources/lady-farmer.jpg" alt="Person One Card" style="margin-top: 10px;" >
         <div class="card-body">
           <h2 class="card-title text-center rounded" style="color: #08A346;">M.SriVarsha</h2>
-          <p class="card-text">
+          <p class="card-text" data-lang="quote1">
             Farming is our heritage, innovation is our promise. Let's nurture success, together.
           </p>
           <p class="card-text text-success">
             srimylaboina17@gmail.com
           </p>
           <p></p>
-          <a class="btn btn-success w-100" style="background-color: #08A346;" onclick="redirectToMail('srimylaboina17@gmail.com')">Contact</a>
+          <a class="btn btn-success w-100" style="background-color: #08A346;" onclick="redirectToMail('srimylaboina17@gmail.com')" data-lang="contactB">Contact</a>
         </div>
       </div>
     
@@ -175,14 +171,13 @@
         <img class="card-img-top profilePicture" src="Resources/lady-farmer2.png" alt="Person Two Card" style="margin-top: 10px;">
         <div class="card-body">
           <h2 class="card-title text-center rounded" style="color: #08A346;">B.Tharuny</h2>
-          <p class="card-text">
-            
+          <p class="card-text" data-lang="quote2">
             Fostering a green revolution. Where farmers meet solutions tailored to their needs.</p>
             <p class="card-text text-success">
               tharuny.begumpet@gmail.com
             </p>
           <a  class="btn btn-success w-100" style="background-color: #08A346;"
-          onclick="redirectToMail('tharuny.begumpet@gmail.com')">Contact</a>
+          onclick="redirectToMail('tharuny.begumpet@gmail.com')" data-lang="contactB">Contact</a>
         </div>
       </div>
     </div>
