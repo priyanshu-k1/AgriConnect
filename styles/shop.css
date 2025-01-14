@@ -1,0 +1,68 @@
+.logoArea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E8F5E9;
+    width:100%;
+    height:70%;
+    margin-top:80px;
+    padding: 10px;
+    position: relative; /* Ensure positioning for absolute children */
+    overflow: hidden; /* Prevent child elements from going outside */
+}
+.covercaption{
+  color: white;
+  position: absolute;
+  bottom: 5%;
+  font-size:1rem;
+  font-family:Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  background: rgba(0, 0, 0, 0.348);
+  backdrop-filter: blur(3px);
+  padding: 1rem 5rem;
+  border-radius:11px;
+  white-space: nowrap; /* Prevents text wrapping */
+  overflow: hidden;
+  animation: levitate2 3s ease-in-out infinite alternate;
+}
+@keyframes levitate2 {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); 
+      filter: drop-shadow(5px 0px 10px  #3f3f3f);}
+    100% { transform: translateY(0); }
+}
+
+
+.mainbody{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    width:100%;
+    height:100rem;
+    background-color: #E8F5E9;
+    padding: 10px;
+   
+}
+.itemholder{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cardImgHolder{
+    display: flex;
+    width:100%;
+    height:15rem;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+.card-img-top{
+    width:80%;
+    height:80%;
+    transition: all 2.5s ease;
+}
+.card-img-top:hover {
+    transform:scale(1.3);
+}

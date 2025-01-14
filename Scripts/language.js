@@ -1,4 +1,7 @@
+function redirectToMail(mailid){
+  alert("Thank for contacting, we'll ping you asap.")
 
+}
 
 class English{
 
