@@ -47,7 +47,13 @@ const translations = {
     aboutheading2:"Our Team",
     quote1:"Farming is our heritage, innovation is our promise. Let's nurture success, together.",
     quote2:"Fostering a green revolution. Where farmers meet solutions tailored to their needs.",
-    contactB:"Contact"
+    contactB:"Contact",
+    checkout:"Check Out",
+    fill:"Please fill the details",
+    nameinput:"Enter your name.",
+    numberinput:"Enter your number.",
+    emailinput:"Enter your address.",
+    agreement:"agree to terms and condition",
 
     
 
@@ -96,7 +102,13 @@ const translations = {
     aboutheading2:"हमारी टीम",
     quote1:"कृषि हमारी धरोहर है, नवाचार हमारी वचनबद्धता है। आइए हम सफलता को साथ मिलकर संजोएं।",
     quote2:"हरे क्रांति को बढ़ावा देना। जहाँ किसान अपनी जरूरतों के अनुसार समाधान प्राप्त करते हैं।",
-    contactB:"संपर्क करें"
+    contactB:"संपर्क करें",
+    checkout:"जाँच करें",
+    fill:"कृपया विवरण भरें",
+    agreement:"शर्तों और नियमों से सहमत हों",
+    nameinput:"अपना नाम दर्ज करें।",
+    numberinput:"अपना नंबर दर्ज करें",
+    addressinput:"अपना पता दर्ज करें|",
     
   },
   te: {
@@ -142,7 +154,14 @@ const translations = {
     aboutheading2:"మా జట్టు",
     quote1:"వ్యవసాయం మన వారసత్వం, ఆవిష్కరణ మన హామీ. మనం కలిసి విజయాన్ని పెంపొందించుకుందాం.",
     quote2:"హరిత విప్లవాన్ని ప్రోత్సహించడం. రైతులు తమ అవసరాలకు అనుకూలమైన పరిష్కారాలను పొందే చోటు.",
-    contactB:"సంప్రదించండి"
+    contactB:"సంప్రదించండి",
+    checkout:" తనిఖీ చేయండి",
+    fill:" దయచేసి వివరాలు భరించండి.",
+    agreement:"నిబంధనలు మరియు షరతులకు అంగీకరించండి.",
+    nameinput:"మీ పేరు నమోదు చేయండి",
+    numberinput:"మీ సంఖ్యను నమోదు చేయండి.",
+    addressinput:"మీ చిరునామాను నమోదు చేయండి",
+
   }
 };
 
@@ -158,13 +177,36 @@ function changeLanguage(lang) {
     el.placeholder = translations[lang][key];
   });
 }
-
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+const randomNumber = getRandomInt(99,699);
 
 function selectLanguage(lang) {
     localStorage.setItem('selectedLanguage', lang);
     changeLanguage(lang);
+    changePayButton();
   }
-
+function changePayButton(){
+  try{
+    const payButton = document.querySelector(".paybutton");
+    lang=localStorage.getItem("selectedLanguage")
+    if(lang=="hi"){
+      payButton.textContent = `भुगतान करें ₹${randomNumber}`
+    }
+    else if(lang=="te"){
+      payButton.textContent = ` చెల్లించండి ₹${randomNumber}`
+    }
+    else{
+      payButton.textContent = `Pay ₹${randomNumber}`;
+    }
+    
+  }
+  finally{
+    console.log("element is not present");
+  }
+}
 window.onload=function(){
+  changePayButton();
   changeLanguage(localStorage.getItem("selectedLanguage"));
 }

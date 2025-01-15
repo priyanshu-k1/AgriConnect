@@ -6,9 +6,9 @@ function onPressedBuyNow(name){
  window.location.href = "delivery.html";
 }
 function payment(){
-    const nameField = document.querySelector('input[placeholder="Enter your name."]');
-    const numberField = document.querySelector('input[placeholder="Enter your number."]');
-    const addressField = document.querySelector('input[placeholder="Enter your address."]');
+    const nameField = document.getElementById("nameinput");
+    const numberField = document.getElementById("numberinput");
+    const addressField = document.getElementById("addressinput");
     const termsCheckbox = document.getElementById("exampleCheck1");
     const qrImg = document.getElementById("qrArea");
     if (
@@ -26,6 +26,6 @@ function payment(){
 }
 
 function redirectT(){
-    localStorage.setItem("name",document.querySelector('input[placeholder="Enter your name."]').value)
+    localStorage.setItem("name",document.getElementById("nameinput").value)
     window.location.href = "order_placed.html";
 }
