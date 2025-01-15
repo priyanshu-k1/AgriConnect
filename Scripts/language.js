@@ -40,7 +40,7 @@ const translations = {
     crop18:"Best for: potatoes, cauliflower",
     buyb:"Buy Now",
     aboutheading:"About Us",
-    aboutText1:"Welcome to <b>AgriConnect</b>, your trusted partner in farming and agriculture!",
+    aboutText1:"Welcome to AgriConnect, your trusted partner in farming and agriculture!",
     aboutText2:"At AgriConnect, we are committed to empowering farmers with knowledge and resources to grow a better tomorrow. Our goal is to support you in making informed decisions about crops, their requirements, and effective agricultural practices—all in the language you are most comfortable with: English, Hindi, and Telugu.",
     aboutText3:"What We Offer Crop Education We provide detailed information about various crops, including their water needs, soil type, temperature preferences, and more. Learn about pest management, fertilizers, and seasonal insights tailored to your region. Farming Resources Whether you need pesticides, fertilizers, or high-quality seeds, we've got you covered. We ensure timely delivery of all essential agricultural products right to your doorstep, saving you time and effort. Language Support We believe that knowledge is best understood in a language you are comfortable with. Our platform supports English, Hindi, and Telugu, making it accessible to farmers across India. Sustainable Solutions From organic farming tips to advanced sustainable practices, we guide you  toward eco-friendly methods that benefit both your crops and the environment.",
     aboutText4:"Why Choose Us? Farmer-Centric Approach: We prioritize your needs and challenges. Accessible Information: Our multilingual platform ensures that every farmer can access the guidance they need. Quality Assurance: All products delivered through us are tested and trusted for the best results. Affordable Solutions: We aim to make modern farming techniques and products accessible to all. Join us in cultivating a brighter future. Let's grow together with AgriConnect—because your success is our mission. Contact us today to learn more and explore the resources waiting for you!",
@@ -95,7 +95,7 @@ const translations = {
     crop18:"सर्वोत्तम: आलू, फूलगोभी",
     buyb:"अभी खरीदें",
     aboutheading:"हमारे बारे में",
-    aboutText1:"<b>AgriConnect</b> में आपका स्वागत है, कृषि और खेती में आपका विश्वसनीय साथी!",
+    aboutText1:"AgriConnect में आपका स्वागत है, कृषि और खेती में आपका विश्वसनीय साथी!",
     aboutText2:"AgriConnect में, हम किसानों को ज्ञान और संसाधनों के साथ सशक्त बनाने के लिए प्रतिबद्ध हैं ताकि वे एक बेहतर कल उगा सकें। हमारा लक्ष्य आपको फसलों, उनकी आवश्यकताओं और प्रभावी कृषि प्रथाओं के बारे में सूचित निर्णय लेने में समर्थन करना है—वह भी आपकी पसंदीदा भाषा में: अंग्रेजी, हिंदी और तेलुगु।",
     aboutText3:"हम क्या प्रदान करते हैं फसल शिक्षा हम विभिन्न फसलों के बारे में विस्तृत जानकारी प्रदान करते हैं, जिसमें उनकी पानी की आवश्यकता, मिट्टी का प्रकार, तापमान की प्राथमिकताएँ, और बहुत कुछ शामिल है। कीट प्रबंधन, उर्वरकों, और मौसमी अंतर्दृष्टियों के बारे में जानें जो आपके क्षेत्र के अनुसार अनुकूलित हैं। कृषि संसाधन चाहे आपको कीटनाशक, उर्वरक या उच्च गुणवत्ता वाले बीज की आवश्यकता हो, हम आपकी सभी जरूरतों को पूरा करते हैं। हम सभी आवश्यक कृषि उत्पादों की समय पर डिलीवरी सुनिश्चित करते हैं, ताकि आपका समय और प्रयास बच सके। भाषा समर्थन हम मानते हैं कि ज्ञान को उस भाषा में समझना सबसे अच्छा होता है, जिसमें आप सहज महसूस करते हैं। हमारा मंच अंग्रेजी, हिंदी और तेलुगु को समर्थन देता है, जिससे यह भारत भर के किसानों के लिए सुलभ बनता है। सतत समाधान कार्बनिक खेती के टिप्स से लेकर उन्नत सतत प्रथाओं तक, हम आपको उन पारिस्थितिकीय रूप से अनुकूल विधियों की ओर मार्गदर्शन करते हैं, जो आपकी फसलों और पर्यावरण दोनों के लिए फायदेमंद हैं।",
     aboutText4:"हमें क्यों चुनें? किसान-केंद्रित दृष्टिकोण: हम आपकी आवश्यकताओं और चुनौतियों को प्राथमिकता देते हैं। सुलभ जानकारी: हमारा बहुभाषी मंच यह सुनिश्चित करता है कि हर किसान उस मार्गदर्शन तक पहुंच सके जिसकी उन्हें आवश्यकता है। गुणवत्ता आश्वासन: हमारे द्वारा प्रदान किए गए सभी उत्पाद परीक्षणित और सर्वोत्तम परिणामों के लिए विश्वसनीय हैं।सस्ती समाधान:हमारा उद्देश्य आधुनिक कृषि तकनीकों और उत्पादों को सभी के लिए सुलभ बनाना है।हमसे जुड़ें और एक उज्जवल भविष्य को उगाने में मदद करें। आइए हम साथ में AgriConnect के साथ बढ़ें—क्योंकि आपकी सफलता हमारा मिशन है।आज ही हमसे संपर्क करें, अधिक जानने के लिए और उन संसाधनों को एक्सप्लोर करने के लिए जो आपके लिए इंतजार कर रहे हैं!",
@@ -147,7 +147,7 @@ const translations = {
     crop18:"ఉత్తమం: ఆలూ, కాలిఫ్లవర్",
     buyb:"ఇప్పుడు కొనండి",
     aboutheading:"మన గురించి",
-    aboutText1:"<b>AgriConnect</b> కు స్వాగతం, రైతు మరియు వ్యవసాయం లో మీ విశ్వసనీయ భాగస్వామి!",
+    aboutText1:"AgriConnect కు స్వాగతం, రైతు మరియు వ్యవసాయం లో మీ విశ్వసనీయ భాగస్వామి!",
     aboutText2:"AgriConnect లో, మేము రైతులను మంచి భవిష్యత్తును పెంచేందుకు జ్ఞానం మరియు వనరులతో శక్తివంతం చేయడంలో నిబద్ధంగా ఉన్నాము. మా లక్ష్యం మీరు పంటలు, వాటి అవసరాలు మరియు సమర్ధవంతమైన వ్యవసాయ అభ్యాసాల గురించి సూత్రసంగతమైన నిర్ణయాలు తీసుకోవడంలో మద్దతు ఇవ్వడమే—మీరు అత్యంత సౌకర్యంగా ఉన్న భాషలో: ఆంగ్లం, హిందీ, మరియు తెలుగు.",
     aboutText3:"మేము ఏమి అందిస్తున్నాం పంట విద్య మేము వివిధ పంటల గురించి విస్తృత సమాచారం అందిస్తున్నాము, వాటి నీటి అవసరాలు, మట్టির రకం, ఉష్ణోగ్రత ప్రాధాన్యతలు మరియు మరిన్ని. మీ ప్రాంతానికి అనుగుణంగా పంటల నిర్వహణ, రసాయనాలు, మరియు సీజనల్ అవగాహన గురించి నేర్చుకోండి. వ్యవసాయ వనరులు మీకు పురుగుల మందులు, రసాయనాలు లేదా అత్యుత్తమ నాణ్యత గల విత్తనాలు అవసరమైతే, మేము వాటిని అందిస్తున్నాము. మీ తగిన అన్ని వ్యవసాయ ఉత్పత్తుల సమయానికి డెలివరీని నిర్ధారిస్తాము, తద్వారా మీ సమయం మరియు శక్తిని ఆదా చేయగలుగుతాము. భాషా మద్దతు జ్ఞానం మీరు సౌకర్యంగా ఉండే భాషలో అర్థం చేసుకోవడం ఉత్తమమని మేము నమ్ముతున్నాము. మా వేదిక ఆంగ్లం, హిందీ మరియు తెలుగు భాషలను మద్దతు చేస్తుంది, దీని ద్వారా ఇది భారతదేశంలోని రైతులకు అందుబాటులో ఉంటుంది. సుస్థిర పరిష్కారాలు జैవిక వ్యవసాయ సలహాలు నుండి ఆధునిక సుస్థిర పద్ధతులు వరకు, మేము పర్యావరణం మరియు పంటలకి అనుకూలమైన పద్ధతుల వైపు మీరు దారిచూపిస్తాము.",
     aboutText4:"మమ్మల్ని ఎందుకు ఎంచుకోవాలి? రైతు-కేంద్రిత దృష్టికోణం:మేము మీ అవసరాలు మరియు సవాళ్లను ప్రాధాన్యం ఇస్తున్నాము. అందుబాటులో ఉన్న సమాచారం:మన మల్టీలాంగ్వేజ్ ప్లాట్‌ఫారమ్ ప్రతి రైతు ఆవశ్యకమైన మార్గదర్శకత్వం పొందగలుగుతుందని నిర్ధారిస్తుంది.నాణ్యత హామీ:మేము అందించే అన్ని ఉత్పత్తులు పరీక్షించబడి, ఉత్తమ ఫలితాల కోసం నమ్మకమైనవి.సాధారణమైన పరిష్కారాలు:ఆధునిక వ్యవసాయ సాంకేతికతలు మరియు ఉత్పత్తులను అందరికీ అందుబాటులో ఉంచడమే మా లక్ష్యం.మమ్మల్ని చేరి ఒక ప్రకాశవంతమైన భవిష్యత్తును పండించడంలో సహకరించండి. AgriConnect తో కలిసి పండిద్దాం—కారణం మీ విజయం మన లక్ష్యం.ఇంకా తెలుసుకోవడానికి మరియు మీ కోసం ఎదురు చూస్తున్న వనరులను అన్వేషించడానికి ఈ రోజు మనతో సంప్రదించండి!",
@@ -187,26 +187,32 @@ function selectLanguage(lang) {
     changeLanguage(lang);
     changePayButton();
   }
-function changePayButton(){
-  try{
+window.onload=function(){
+  changePayButton() ;
+  changeLanguage(localStorage.getItem("selectedLanguage"));
+}
+
+
+function changePayButton() {
+  try {
+    // Check if the specific element exists on the page
     const payButton = document.querySelector(".paybutton");
-    lang=localStorage.getItem("selectedLanguage")
-    if(lang=="hi"){
-      payButton.textContent = `भुगतान करें ₹${randomNumber}`
+    if (!payButton) {
+      console.log("Pay button not present on this page.");
+      return; // Exit if the element is not found
     }
-    else if(lang=="te"){
-      payButton.textContent = ` చెల్లించండి ₹${randomNumber}`
-    }
-    else{
+
+    const lang = localStorage.getItem("selectedLanguage");
+    const randomNumber = 123; // Replace with your actual logic for generating a random number
+
+    if (lang === "hi") {
+      payButton.textContent = `भुगतान करें ₹${randomNumber}`;
+    } else if (lang === "te") {
+      payButton.textContent = `చెల్లించండి ₹${randomNumber}`;
+    } else {
       payButton.textContent = `Pay ₹${randomNumber}`;
     }
-    
+  } catch (error) {
+    console.error("Error in changePayButton:", error);
   }
-  finally{
-    console.log("element is not present");
-  }
-}
-window.onload=function(){
-  changePayButton();
-  changeLanguage(localStorage.getItem("selectedLanguage"));
 }
