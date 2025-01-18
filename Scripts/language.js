@@ -52,7 +52,7 @@ const translations = {
     fill:"Please fill the details",
     nameinput:"Enter your name.",
     numberinput:"Enter your number.",
-    emailinput:"Enter your address.",
+    addressinput:"Enter your address.",
     agreement:"agree to terms and condition",
 
     
@@ -203,7 +203,7 @@ function changePayButton() {
     }
 
     const lang = localStorage.getItem("selectedLanguage");
-    const randomNumber = 123; // Replace with your actual logic for generating a random number
+    const randomNumber = getRandomInt(99,699); // Replace with your actual logic for generating a random number
 
     if (lang === "hi") {
       payButton.textContent = `भुगतान करें ₹${randomNumber}`;
