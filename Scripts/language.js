@@ -246,6 +246,6 @@ function changePayButton(amount) {
       payButton.textContent = `Pay ₹${amount}`;
     }
   } catch (error) {
-    console.error("Error in changePayButton:", error);
+    console.error("Error in change Pay Button:", error);
   }
 }
